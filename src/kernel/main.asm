@@ -81,7 +81,7 @@ main:
  	jmp .halt ; jump bir location veriyor bize c deki goto komutu gibi
  	
 
-msg_hello: db 'Serdemi cok seviyorum!' , ENDL , 0
+msg_hello: db 'SELAMLAR!' , ENDL , 0
 
 
 times 510-($-$$) db 0  ;db = define byte(s) olarak geciyor, times= verilen zamana gore instruction u tekrar eder
